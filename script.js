@@ -66,9 +66,15 @@ function generate(event) {
         passCharString = passCharString + set.characters;
         }
         });
- 
+        
+        //Console Log to verify new array after confirm. 
+        console.log(passCharSet)
     }
-
+    // Else statement to let User know password did not meet required criteria. 
+     else {
+    alert("Your password must be between 8 and 128 characters long, please try again!")
+    }
+    
 
 }
 

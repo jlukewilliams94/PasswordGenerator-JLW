@@ -4,7 +4,7 @@ var genRanPass = document.querySelector("#generate")
 //Random Password String to be created.
 var passCharString = "";
 
-// Created an Array of Objects. Objects contain the type of Charatrers, Name and Use. 
+// Created an Array of Objects. Invididual Object contains the type of Charatrers, Name and Use. 
 var passCharSet = [
 
     // Object Set 1: Uppercase Letters.
@@ -40,10 +40,21 @@ var passCharSet = [
     }
 ]
 
-// Event Listener
+// Console log to Verify Array. 
+console.log(passCharSet)
+
+
+
+ 
+// Function to prompt random password length. 
+function generate(event) {
+
+    var passwordLength = prompt("How many characters would you like your password to have?");
+    var ranPassString = "";
+
+    console.log(passwordLength);
+}
+ 
+
+ // Event Listener
 genRanPass.addEventListener("click", generate);
- 
-
- 
-
- 

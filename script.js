@@ -53,8 +53,24 @@ function generate(event) {
     var ranPassString = "";
 
     console.log(passwordLength);
-}
+
+    // If Statement to ensure password length meets necessary criteria.
+    if(passwordLength >= 8 && passwordLength <= 128) {
+        // Confirm which character type want to use in random password. 
+        passCharSet.forEach(set => {
+        var useChar = (confirm(`Do you want your password to contain ${set.name}?`));
+        if (useChar == true) {
+        set.use = true;
+        }             
+        if (set.use) {
+        passCharString = passCharString + set.characters;
+        }
+        });
  
+    }
+
+
+}
 
  // Event Listener
 genRanPass.addEventListener("click", generate);

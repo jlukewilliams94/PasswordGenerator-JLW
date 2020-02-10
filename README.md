@@ -24,11 +24,23 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Generate Password Button with Corresponding Password Length Prompt. 
 
+![Generate Password and Password Length Prompt](https://user-images.githubusercontent.com/59854275/74200139-1e627200-4c34-11ea-8a9d-7665d11e38ec.png)
 
 ## Series of Confirm Questions that will allow the user to select which character types they would like their password to contain. 
+![Number Confirmation](https://user-images.githubusercontent.com/59854275/74200167-2fab7e80-4c34-11ea-9c4c-04d10e0f2d71.png)
+![Uppercase Letters Confirmation](https://user-images.githubusercontent.com/59854275/74200183-3639f600-4c34-11ea-91ce-8dfc408215cb.png)
+![LowerCase Letter Confirmation](https://user-images.githubusercontent.com/59854275/74200195-3df99a80-4c34-11ea-96ac-a1c4f91245ad.png)
+![Special Characters Confirmation](https://user-images.githubusercontent.com/59854275/74200205-44881200-4c34-11ea-84c6-2a9c70970f89.png)
 
 ## Console Log of the Array indicating which Character Type has been confirmed to be used in Random Password Generator. Character Types confirmed have 'use' set to 'true'.
 
+![Array Post Character Type Confirmation](https://user-images.githubusercontent.com/59854275/74200217-4d78e380-4c34-11ea-8674-a21bfb497b93.png)
+
 ## Random Password Generated as a result of Password Length Prompt and Character Type Confirm Prompts. 
 
-## Else Alerts when Password Length Prompt and Character Type Confirm Prompts do not meet necessary criteria. 
+![Generated Random Password](https://user-images.githubusercontent.com/59854275/74200228-58337880-4c34-11ea-8a9b-55042522537e.png)
+
+## Else Alert when Password Length Prompt and Character Type Confirm Prompts donot meet necessary criteria. 
+
+![Password Length Alert](https://user-images.githubusercontent.com/59854275/74200247-6aadb200-4c34-11ea-9dea-7776f8f1171f.png)
+![Password Character Type Alert](https://user-images.githubusercontent.com/59854275/74200289-8b760780-4c34-11ea-9bea-f2ac8f104fdd.png)

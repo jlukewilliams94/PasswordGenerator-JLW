@@ -4,7 +4,7 @@ Please follow this link to the Random Password Generator Web Page:
 ## https://jlukewilliams94.github.io/PasswordGenerator-JLW/
 
 ## Random Password Generator Acceptance Criteria 
-In order for the random password geerator to operate correctly it must meet the below acceptance criteria:
+In order for the random password generator to operate correctly it must meet the below acceptance criteria:
 
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -40,7 +40,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ![Generated Random Password](https://user-images.githubusercontent.com/59854275/74200228-58337880-4c34-11ea-8a9b-55042522537e.png)
 
-## Else Alert when Password Length Prompt and Character Type Confirm Prompts donot meet necessary criteria. 
+## Else Alert when Password Length Prompt and Character Type Confirm Prompts do not meet necessary criteria. 
 
 ![Password Length Alert](https://user-images.githubusercontent.com/59854275/74200247-6aadb200-4c34-11ea-9dea-7776f8f1171f.png)
 ![Password Character Type Alert](https://user-images.githubusercontent.com/59854275/74200289-8b760780-4c34-11ea-9bea-f2ac8f104fdd.png)

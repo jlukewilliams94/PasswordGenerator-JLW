@@ -3,7 +3,7 @@
 Please follow this link to the Random Password Generator Web Page: 
 ## https://jlukewilliams94.github.io/PasswordGenerator-JLW/
 
-### Random Password Generator Acceptance Criteria 
+## Random Password Generator Acceptance Criteria 
 In order for the random password geerator to operate correctly it must meet the below acceptance criteria:
 
 GIVEN I need a new, secure password
@@ -22,13 +22,13 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-#### Generate Password Button with Corresponding Password Length Prompt. 
+## Generate Password Button with Corresponding Password Length Prompt. 
 
 
-##### Series of Confirm Questions that will allow the user to select which character types they would like their password to contain. 
+## Series of Confirm Questions that will allow the user to select which character types they would like their password to contain. 
 
-###### Console Log of the Array indicating which Character Type has been confirmed to be used in Random Password Generator. Character Types confirmed have 'use' set to 'true'.
+## Console Log of the Array indicating which Character Type has been confirmed to be used in Random Password Generator. Character Types confirmed have 'use' set to 'true'.
 
-###### Random Password Generated as a result of Password Length Prompt and Character Type Confirm Prompts. 
+## Random Password Generated as a result of Password Length Prompt and Character Type Confirm Prompts. 
 
-###### Else Alerts when Password Length Prompt and Character Type Confirm Prompts do not meet necessary criteria. 
+## Else Alerts when Password Length Prompt and Character Type Confirm Prompts do not meet necessary criteria. 
